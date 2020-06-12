@@ -1,0 +1,101 @@
+
+<html>
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    
+    <title>Pong, But Kinder</title>
+</head>
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class = "container">
+            <div class = "row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/logo1.png" class="img-fluid" />
+                </div>
+                <div class = "col">
+                    <br></br>
+                    <h1>Pong, But Kinder</h1>
+                    <h2>Gaming For A Cause</h2>
+                </div>
+                <div class = "col-12 col-md-4 col-xl-2 mt-4">
+                    <br></br>
+                    <a id="loginButton" class="btn btn-lg btn-info" >Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo1.png" height="30" width="30" /></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nucampNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
+                <li class="nav-item"><a class="nav-link" href="sponsors.html"><i class="fa fa-list fa-lg"></i> Sponsors</a></li>
+                <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+    
+    <section class="about">
+        <div class="about-title">
+            <div id="game" class="game1">
+                <script src="pong.js"></script>
+                </div>
+        </div>
+        <div class="about-pages">
+            <div>
+                <h2>You Win, We Donate</h2>
+                <p>Thanks to our sponsors, every 10 points you score, a $1 donation will be made to charities that combat animal cruelty, aid in the fight again climate change, and overall make the world a better place.  </p>
+                <h2>Charity? What about me?</h2>
+                <p>We didn't forget about you. Every 50 points you score, you also earn $1.</p>
+                <h2>How do I track my earnings?</h2>
+                <p>Create an account, and from there you'll be able to see your total accumulated score, your contributions, and your total earnings.</p>
+                <h2>Who Are The Sponsors?</h2>
+                <p>Well, this is only 5 weeks into NuCamp's bootcamp, so while we don't have the advertisers yet, we are looking into them! They'll include a variety of animal rights organizations, plant-based food companies, and start ups looking to reach a connected, and engaged audience.</p>
+            </div>
+            
+
+        </div>
+    </section>
+ 
+    
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="pong.js"></script>
+    
+    
+
+
+    <!-- endbuild -->
+</body>
+</html>
+
+
